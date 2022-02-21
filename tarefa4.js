@@ -1,10 +1,15 @@
-
-
-let valorInicial = 11
-const valorFinal = 30
-for (valorInicial; valorInicial < valorFinal; valorInicial += 2) {
-    console.log(valorInicial)
+function SomaImpar( ) {
+    let valorInicial = 11
+    const valorFinal = 30
+    for (; valorInicial < valorFinal; valorInicial += 2) {
+        console.log( valorInicial + valorInicial)
+    }
 }
+SomaImpar()
+
+
+
+//11, 13, 15, 17, 19, 21, 23, 25, 27, 29 -numeros impares desejados
 
 
 
@@ -16,7 +21,6 @@ for (let i = 0; i < 30; i += 1)//fazendo a conversão de impar
     console.log(valorInicial)
 }
 
-//11, 13, 15, 17, 19, 21, 23, 25, 27, 29
 
 //let somaImpar = soma + soma
 //console.log(somaImpar)

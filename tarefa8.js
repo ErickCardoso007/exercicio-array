@@ -1,7 +1,10 @@
-function contaPalavras(valor) {
-    let texto = "O Naruto pode ser um pouco duro às vezes, talvez você não saiba disso, mas o Naruto também cresceu sem pai. ... Mesmo assim eu nunca vi ele chorar, ficar zangado ou se dar por vencido, ele está sempre disposto a melhorar, ele quer ser respeitado, é o sonho dele e o Naruto daria a vida por isso sem hesitar."
+function contaPalavras() {
+    let texto = "O patinho feio Era uma manhã de verão, e uma pata havia botado cinco ovos. Ela estava aguardando impaciente a chegada de seus filhotinhos. Assim, quando o primeiro ovo se partiu, mamãe pata ficou muito contente. Logo os outros patinhos também começaram a nascer. Mas havia um ovo que demorou para se quebrar, deixando-a ansiosa."
     const conta = texto.split(" ").length
-    return conta
+    if (conta >= 50){
+    return `a quantidade de palavras no texto é de ${conta}`
+    }
+    return `O texto é muito curto com apenas ${conta} caracteres`
 }
 console.log(contaPalavras())
 

@@ -1,6 +1,6 @@
-function Conversao(x) {
-
-    return  (f-32)/1,8
+function Conversao(f) {
+let C = ((f-32)/1.8).toFixed(2)
+    return  C
 
 }
-console.log(Conversao())
+console.log(Conversao(60))

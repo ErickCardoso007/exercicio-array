@@ -1,17 +1,18 @@
 function retornArray(array) {
-    array = [
-        9, 7, -4, -334, -90, 6, 5, 7, 15, 45, 4, 3].filter()
+    array = [9, 7, -4, -334, -90, 6, 5, 7, 15, 45, 4, 3]
 
+    const positivos = array.filter(function (a) { return a > -1; });
 
-    console.log(array)
+    return positivos;
+
 
 }
-retornArray()
+console.log(retornArray())
 
-
-
-
-
+/*
+const ordemCrescente = arrayNum.sort(function (a, b) {
+    return a - b;
+});
 
 
 /*9) 

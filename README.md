@@ -31,8 +31,8 @@ Criar uma função que receba como parâmetro um array de números e retorne um 
 contendo somente números positivos.
 
 10) 
-Criar uma função que junte dois arrays e retorno o resultado como um novo array 
+Criar uma função que junte dois arrays e retorne o resultado como um novo array 
 
 11)
-Criar uma função que retorno um valor booleano informando se o número enviado como 
+Criar uma função que retorne um valor booleano informando se o número enviado como 
 parâmetro é um número primo.

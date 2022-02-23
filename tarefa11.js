@@ -1,20 +1,64 @@
 function numPrimo(num) {
+    let divisores = 0
+    for (let i = 1; i <= num; i++)
+        if (num % i == 0)
+            divisores++;
 
-    var numeroPrimoInicial = 1
-
-    while (numeroPrimoInicial <= num) {
-
-        if (numeroPrimoInicial / numeroPrimoInicial) {
-            numeroPrimoInicial = numeroPrimoInicial + 1
-            return true
-        }
-        else { return false }
-    }
+    if (divisores == 2)
+        return true;
+    else
+        return false;
 }
-console.log(numPrimo(16))
+console.log(numPrimo(17))
+
+
+
+
+
+
+
+
+/*11) explicacação:
+Criar uma função que retorne um valor true or false informando se o número enviado como 
+parâmetro é um número primo.
+Um número primo é um número que só pode ser dividido por 1 e por ele mesmo.
+Por exemplo: 3,5,7,11,13,17
+
+
+
+
+
+
+
+
+
+let divisores = 0
+    for (let i = 1; i <= num; i++) {
+        divisores++
+        if (num % i === 0) {
+            return false
+        }
+
+        else { return num > 1 }
+
+    }
+    if (divisores === 2) {
+        return true
+
+        //return num > 1;
+
+
+
+    }
+
+
+
+}*/
+
 
 /*
-    for (let i = 2; i <= num; i++) {
+
+for (let i = 2; i <= num; i++) {
         if (num % i === 0) {
             return false;
         }
@@ -31,15 +75,29 @@ if (verificaPrimo % ) {
 else () {
 
     return false
-}*/
+}
 
 
 
-/*11) explicacação:
-Criar uma função que retorne um valor true or false informando se o número enviado como 
-parâmetro é um número primo.
-Um número primo é um número que só pode ser dividido por 1 e por ele mesmo.
-Por exemplo: 3,5,7,11,13,17
+    var numeroPrimoInicial = 1
+
+    while (numeroPrimoInicial <= num) {
+
+        if (numeroPrimoInicial / numeroPrimoInicial) {
+            numeroPrimoInicial = numeroPrimoInicial + 1
+            return true
+        }
+        else { return false }
+    }
+
+
+
+
+
+*/
+
+
+/*
 
 function primo(){
   
